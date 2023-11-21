@@ -1,0 +1,13 @@
+header ul li a{
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+header ul li a:hover{
+    color: var(--title);
+    opacity: 1;
+    font-size: 0.9rem;
+    color: var(--blue);
+}
