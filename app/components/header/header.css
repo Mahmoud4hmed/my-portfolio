@@ -11,3 +11,41 @@ header ul li a:hover{
     font-size: 0.9rem;
     color: var(--blue);
 }
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    header nav{display: none;}
+
+    .menu{
+        display: block;
+    }
+}
+
+ul.modal li{
+    padding-bottom: 0.7rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid var(--border);
+    transition-duration: 500ms;
+}
+ul.modal li:last-child{
+    border-bottom: none;
+}
+
+ul.modal li:first-child{
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: 0.2;
+}
+
+@keyframes animateModal {
+    0%   {scale: 0;}
+    60%  {scale: 1.2;}
+    100% {scale: 1;}
+}
+
+.mainModal{
+    animation: animateModal 0.7s 1;
+}
