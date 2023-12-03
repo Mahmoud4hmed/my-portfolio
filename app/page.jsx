@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Hero from './components/Hero/Hero'
+import Hero from './components/hero/Hero'
 import Header from './components/header/Header'
 import Main from './components/main/Main'
 import Contact from './components/contact/Contact'
