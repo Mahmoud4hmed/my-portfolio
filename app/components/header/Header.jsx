@@ -11,7 +11,7 @@ const Header = () => {
             <button onClick={() => setShowModal(true)} className='rounded-full p-2 mx-4 menu icon-th-menu bg-[var(--bgHeader)] h-10 w-10 active:scale-50 duration-200'></button>
                 <div></div>
 
-            <nav className='bg-[var(--bgHeader)] py-4 px-8 rounded-full hover:shadow-md shadow-sm shadow-gray-500 duration-500 hover:shadow-[var(--blue)]'>
+            <nav className='bg-[var(--bgHeader)] backdrop-filter backdrop-blur py-4 px-8 rounded-full hover:shadow-md shadow-sm shadow-gray-500 duration-500 hover:shadow-[var(--blue)]'>
                 <ul className='flex gap-4'>
                     <li>
                         <a href="#" className='duration-300'>About</a>
