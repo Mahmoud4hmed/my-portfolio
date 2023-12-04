@@ -1,10 +1,38 @@
 import React from 'react';
+import './contact.css';
 
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact</h1>
-        </div>
+    <section className='flex gap-4'>
+
+            <div className='py-3 pl-5 gap-8'>
+                <h1 className='text-3xl gap-3 flex text-[var(--title)]'>
+                    <span className='icon-email'></span>
+                    Contact me
+                </h1>
+                <p className='text-[var(--subtitle)] pt-4'>Feel free to reach out for collaboration, inquiries, or just a tech chat!</p>
+
+                <form className='pt-8 flex flex-col gap-8'>
+                    <div className='flex flex-wrap'>
+                        <label className='mr-3 mb-2' htmlFor="email">Email Address: </label>
+                        <input type="email" required name="email" id="email" placeholder='Enter your email' className='bg-[#26262aad] rounded-md border focus:border-[var(--blue)] border-[#4e4e5f] p-1 w-64 focus:scale-105 duration-200 hover:border-[var(--blue)]' />
+                    </div>
+                
+                    <div className='flex flex-wrap'>
+                        <label className='mr-3 mb-2' htmlFor="message">Your message: </label>
+                        <textarea name="message" required id="message" placeholder='Enter your message' className='bg-[#26262aad] rounded-md border focus:border-[var(--blue)] border-[#4e4e5f] p-1 w-64 focus:scale-105 duration-200 hover:border-[var(--blue)] min-h-[9rem]' />
+                    </div>
+
+                    <button className='bg-[var(--ButtonBG)] self-center text-xl hover:scale-95 py-1 w-28 opacity-75 rounded-md hover:opacity-100 duration-200 border border-[var(--blue)]'>Send</button>
+                </form>
+
+            </div>
+
+
+            <div className='border border-green-500 email-animation'>
+                Right section for animation
+            </div>
+        </section>
     );
 }
 

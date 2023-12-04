@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
                 <h1 className='md:text-3xl sm:text-xl font-bold text-[var(--title)]'>
                 Mahmoud Ahmed - Fullstack Developer
-                🌐 | 🖥️ | 🧠
+                🌐 🖥️
                 </h1>
                 <p className='text-sm text-[var(--subtitle)]'>
                     Enthusiastic junior fullstack developer with a year of freelance experience. Proficient in C, Python, and web technologies (HTML, CSS, JavaScript, Bootstrap, Tailwind). Experienced in Flask, Django, Rest Framework, and React. Strong problem-solving skills, dedicated to continuous self-improvement. CS student at UoPeople with a CS50 certificate from Harvard. Solely developed AndalusEdu, an innovative educational platform. Adept at time management, committed to personal and professional growth. Fluent in Arabic and English with basic Deutsch skills. Contact me on <strong>mahmoudahmed9go@gmail.com</strong>
