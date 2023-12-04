@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <main className="w-5/6 bg-[var(--secondary)] p-8 border-solid border-2 border-[var(--border)] mx-auto">
       <Header />
-      <hr className='border-solid border-1 border-[var(--border)] my-12' />
       <Hero />
       <hr className='border-solid border-1 border-[var(--border)] my-12' />
       <Main />

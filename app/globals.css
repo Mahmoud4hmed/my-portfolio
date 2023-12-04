@@ -22,6 +22,8 @@ html {
   --bgHeader: rgb(39 39 42);
   --blue: rgb(93 188 252);
   --ButtonBG: rgba(36, 37, 46, 1);
+  --icon-hover: #d4d4d8;
+  --card-border: rgba(93, 188, 252, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
