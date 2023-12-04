@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="w-5/6 bg-[var(--secondary)] p-8 border-solid border-2 border-[var(--border)] mx-auto">
+    <main id='topp' className="w-5/6 bg-[var(--secondary)] p-8 border-solid border-2 border-[var(--border)] mx-auto">
       <Header />
       <Hero />
       <hr className='border-solid border-1 border-[var(--border)] my-12' />
@@ -17,6 +17,9 @@ export default function Home() {
       <Contact />
       <hr className='border-solid border-1 border-[var(--border)] my-12' />
       <Footer />
+      <a href="#topp">
+        <button className='icon-arrow_up text-xl bg-[var(--scrollButton)] w-12 h-12 rounded-full fixed bottom-8 right-[3%]'></button>
+      </a>
     </main>
   )
 }

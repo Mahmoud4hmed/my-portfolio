@@ -5,6 +5,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 html {
   font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 420px){
+  #topp{
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 380px){
+  #topp{
+    padding: 0.2rem;
+  }
 }
 
 * {
@@ -24,6 +37,7 @@ html {
   --ButtonBG: rgba(36, 37, 46, 1);
   --icon-hover: #d4d4d8;
   --card-border: rgba(93, 188, 252, 0.3);
+  --scrollButton: rgb(25 64 90);
 }
 
 @media (prefers-color-scheme: dark) {
