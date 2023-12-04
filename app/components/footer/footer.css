@@ -1,0 +1,28 @@
+li{
+    transition: 0.3s;
+}
+
+li:hover{
+    transform: scale(1.1);
+    color: var(--blue);
+}
+
+@media (max-width: 970px){
+    footer{
+        flex-direction: column;
+    }
+    ul{
+        padding-bottom: 1.2rem;
+    }
+}
+
+@media (max-width: 515px){
+    ul{
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+        font-size: small;
+    }
+    footer p{
+        font-size: small;
+    }
+}
