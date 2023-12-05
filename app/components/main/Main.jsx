@@ -5,6 +5,7 @@ import notzilla from '../../assets/Notzilla.png'
 import andalus from '../../assets/andalus.png'
 import quran from '../../assets/quran.png'
 import blog from '../../assets/blog.png'
+import air from '../../assets/air.png'
 import './main.css'
 import { useState } from 'react'
 
@@ -13,7 +14,7 @@ const projects = [
     {Name:'Flask Blog', Image: blog, Description:'Flask Blog is a web based blog for sports', Link:'https://github.com/mahmoud4hmed/Flask_blog', Language:'Python', Type:'Flask'},
     {Name:'Quran', Image: quran, Description:'Quran is a web app for reading the quran', Link:'https://github.com/mahmoud4hmed/Quran ', Language:'Python', Type:'React'},
     {Name:'AndalusEdu', Image: andalus, Description:'AndalusEdu is an  educational platform', Link:'https://github.com/mahmoud4hmed/AndalusEdu ', Language:'Python', Type:'Django'},
-    {Name:'AndalusEdu', Image: andalus, Description:'AndalusEdu is an  educational platform', Link:'https://github.com/mahmoud4hmed/AndalusEdu ', Language:'Python', Type:'C'},
+    {Name:'AirSpear', Image: air, Description:'AirSpear is a cyber security tool for network pentesting', Link:'https://github.com/mahmoud4hmed/AndalusEdu ', Language:'Python', Type:'C'},
 ]
 
 const Main = () => {
