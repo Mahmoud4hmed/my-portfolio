@@ -1,5 +1,14 @@
-
 .typeButtons button{
+    background-color: var(--ButtonBG);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 11rem;
+    opacity: 0.75;
+    border-radius: 0.375rem;
+    transition: 0.3s;
+}
+
+.typeButtons button.active{
     background-color: var(--ButtonBG);
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -8,15 +17,14 @@
     border-radius: 0.375rem;
     border: 1px solid var(--blue);
     transition: 0.3s;
+    font-weight: bold;
+    opacity: 1;
 }
 
 .typeButtons button:hover{
     opacity: 1;
 }
-.typeButtons button:active{
-    font-weight: bold;
-    opacity: 1;
-}
+
 
 
 @media (max-width: 700px) {
