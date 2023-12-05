@@ -5,7 +5,7 @@ import notzilla from '../../assets/Notzilla.png'
 import andalus from '../../assets/andalus.png'
 import quran from '../../assets/quran.png'
 import blog from '../../assets/blog.png'
-import air from '../../assets/air.png'
+import air from '../../assets/air.jpg'
 import './main.css'
 import { useState } from 'react'
 
