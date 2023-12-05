@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import notzilla from '../../assets/notzilla.png'
+import notzilla from '../../assets/Notzilla.png'
 import andalus from '../../assets/andalus.png'
 import quran from '../../assets/quran.png'
 import blog from '../../assets/blog.png'
