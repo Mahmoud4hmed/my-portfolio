@@ -8,7 +8,6 @@ import blog from '../../assets/blog.png'
 import './main.css'
 import { useState } from 'react'
 
-
 const projects = [
     {Name:'Notzilla', Image: notzilla, Description:'Notzilla is a web app that allows you to take notes', Link:'https://github.com/mahmoud4hmed/Notzilla', Language:'Python', Type:'Fullstack'},
     {Name:'Flask Blog', Image: blog, Description:'Flask Blog is a web based blog for sports', Link:'https://github.com/mahmoud4hmed/Flask_blog', Language:'Python', Type:'Flask'},
