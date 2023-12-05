@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import notzilla from '../../assets/notzilla.png'
+// import notzilla from '../../assets/notzilla.png'
 import andalus from '../../assets/andalus.png'
 import quran from '../../assets/quran.png'
 import blog from '../../assets/blog.png'
@@ -9,7 +9,7 @@ import './main.css'
 import { useState } from 'react'
 
 const projects = [
-    {Name:'Notzilla', Image: notzilla, Description:'Notzilla is a web app that allows you to take notes', Link:'https://github.com/mahmoud4hmed/Notzilla', Language:'Python', Type:'Fullstack'},
+    {Name:'Notzilla', Image: blog, Description:'Notzilla is a web app that allows you to take notes', Link:'https://github.com/mahmoud4hmed/Notzilla', Language:'Python', Type:'Fullstack'},
     {Name:'Flask Blog', Image: blog, Description:'Flask Blog is a web based blog for sports', Link:'https://github.com/mahmoud4hmed/Flask_blog', Language:'Python', Type:'Flask'},
     {Name:'Quran', Image: quran, Description:'Quran is a web app for reading the quran', Link:'https://github.com/mahmoud4hmed/Quran ', Language:'Python', Type:'React'},
     {Name:'AndalusEdu', Image: andalus, Description:'AndalusEdu is an  educational platform', Link:'https://github.com/mahmoud4hmed/AndalusEdu ', Language:'Python', Type:'Django'},
