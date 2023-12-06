@@ -14,13 +14,13 @@ const Contact = () => {
 
                 <form className='pt-8 flex flex-col gap-8'>
                     <div className='flex flex-wrap'>
-                        <label className='mr-3 mb-2' htmlFor="email">Email Address: </label>
-                        <input type="email" required name="email" id="email" placeholder='Enter your email' className='bg-[#26262aad] rounded-md border focus:border-[var(--blue)] border-[#4e4e5f] p-1 w-64 focus:scale-105 duration-200 hover:border-[var(--blue)]' />
+                        <label className='mr-3 mb-2 text-[var(--title)]' htmlFor="email">Email Address: </label>
+                        <input type="email" required name="email" id="email" placeholder='Enter your email' className='bg-[var(--bgHeader)] text-[var(--title)] rounded-md border focus:border-[var(--blue)] border-[#4e4e5f] p-1 w-64 focus:scale-105 duration-200 hover:border-[var(--blue)]' />
                     </div>
                 
                     <div className='flex flex-wrap'>
-                        <label className='mr-3 mb-2' htmlFor="message">Your message: </label>
-                        <textarea name="message" required id="message" placeholder='Enter your message' className='bg-[#26262aad] rounded-md border focus:border-[var(--blue)] border-[#4e4e5f] p-1 w-64 focus:scale-105 duration-200 hover:border-[var(--blue)] min-h-[9rem]' />
+                        <label className='mr-3 mb-2 text-[var(--title)]' htmlFor="message">Your message: </label>
+                    <textarea name="message" required id="message" placeholder='Enter your message' className='bg-[var(--bgHeader)] text-[var(--title)] rounded-md border focus:border-[var(--blue)] border-[#4e4e5f] p-1 w-64 focus:scale-105 duration-200 hover:border-[var(--blue)] min-h-[9rem]' />
                     </div>
 
                     <button className='bg-[var(--ButtonBG)] self-center text-xl hover:scale-95 py-1 w-28 opacity-75 rounded-md hover:opacity-100 duration-200 border border-[var(--blue)]'>Send</button>

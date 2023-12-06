@@ -43,25 +43,23 @@ const Main = () => {
                 
             <button onClick={() => {
                 handleFilter("Django")
-                
-                }} className={active === "django"? 'active' : ''}>Django</button>
+                }} className={active === "Django"? 'active' : ''}>Django</button>
                 
             <button onClick={() => {
                 handleFilter("Flask")
-                }} className={active === "flask"? 'active' : ''}>Flask</button>
+                }} className={active === "Flask"? 'active' : ''}>Flask</button>
                 
             <button onClick={() => {
                 handleFilter("React")
-                }} className={active === "react"? 'active' : ''}>React js</button>
+                }} className={active === "React"? 'active' : ''}>React js</button>
                 
             <button onClick={() => {
                 handleFilter("Fullstack")
-                }} className={active === "fullstack"? 'active' : ''}>Fullstack</button>
+                }} className={active === "Fullstack"? 'active' : ''}>Fullstack</button>
                 
             <button onClick={() => {
                 handleFilter("C")
-                
-                }} className={active === "c"? 'active' : ''}>C Programming</button>
+                }} className={active === "C"? 'active' : ''}>C Programming</button>
                 
             </section>
 
@@ -69,7 +67,7 @@ const Main = () => {
 
             {array.map((item) => {
                 return(
-                    <article key={item} className='border border-[--card-border] hover:border-[--blue] duration-300 w-72 rounded-lg hover:rotate-1 hover:scale-105 cursor-pointer h-fit'>
+                    <article key={item} className='border border-[var(--border)] hover:border-[--blue] duration-300 w-72 rounded-lg hover:rotate-1 hover:scale-105 cursor-pointer h-fit'>
                     <Image src={item.Image} width={300} height={300} className='rounded-lg' alt='pfp'/>
                     <div className='w-72 py-3 px-2 bg-[#ffffff0d]'>
                         <h1 className='text-xl font-bold text-[var(--title)]'>{item.Name}</h1>
