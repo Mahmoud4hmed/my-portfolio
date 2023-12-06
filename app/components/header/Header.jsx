@@ -5,7 +5,9 @@ import './header.css';
 const Header = () => {
 
     const [showModal, setShowModal] = useState(false);
-    const [theme, setTheme] = useState(localStorage.getItem('currentTheme') ?? 'dark');
+    const [theme, setTheme] = useState(
+        typeof window !== 'undefined' ? localStorage.getItem('currentTheme') ?? 'dark' : 'dark'
+    );
 
     useEffect(() => {
 
