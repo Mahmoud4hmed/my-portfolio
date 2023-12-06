@@ -69,7 +69,7 @@ const Main = () => {
 
             {array.map((item) => {
                 return(
-                    <article key={item} className='border border-[--card-border] hover:border-[--blue] duration-300 w-72 rounded-lg hover:rotate-1 hover:scale-105 cursor-pointer'>
+                    <article key={item} className='border border-[--card-border] hover:border-[--blue] duration-300 w-72 rounded-lg hover:rotate-1 hover:scale-105 cursor-pointer h-fit'>
                     <Image src={item.Image} width={300} height={300} className='rounded-lg' alt='pfp'/>
                     <div className='w-72 py-3 px-2 bg-[#ffffff0d]'>
                         <h1 className='text-xl font-bold text-[var(--title)]'>{item.Name}</h1>
