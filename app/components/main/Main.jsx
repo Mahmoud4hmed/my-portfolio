@@ -68,8 +68,8 @@ const Main = () => {
             {array.map((item) => {
                 return(
                     <article key={item} className='border border-[var(--border)] hover:border-[--blue] duration-300 w-72 rounded-lg hover:rotate-1 hover:scale-105 cursor-pointer h-fit'>
-                    <Image src={item.Image} width={300} height={300} className='rounded-lg' alt='pfp'/>
-                    <div className='w-72 py-3 px-2 bg-[#ffffff0d]'>
+                    <Image src={item.Image} width={300} height={300} className='rounded-t-lg' alt='pfp'/>
+                    <div className='w-72 py-3 rounded-b-lg px-2 bg-[#ffffff0d]'>
                         <h1 className='text-xl font-bold text-[var(--title)]'>{item.Name}</h1>
                         <p className='text-sm text-[var(--subtitle)]'>{item.Description}</p>
                         <div className='flex gap-3 mt-3 justify-between text-lg items-center'>
