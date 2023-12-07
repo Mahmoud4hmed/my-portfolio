@@ -64,20 +64,20 @@ const Header = () => {
                         <li className='text-right border-none'>
                             <button onClick={() => setShowModal(false)} className='hover:text-red-600 text-[var(--icon-color)] duration-300 text-xl icon-clear rounded-full bg-[var(--bgHeader)] h-8 w-8 active:scale-50 hover:scale-105 hover:rotate-180'></button>
                         </li>
-                        <li className=' text-white '>
-                            <a href="#" className='duration-300'>About</a>
-                        </li>
                         <li>
-                            <a href="#" className='duration-300'>Articles</a>
+                        <a href="#about" className='duration-300'>About</a>
                         </li>
+                        
                         <li>
-                            <a href="#" className='duration-300'>Projects</a>
+                            <a href="#social" className='duration-300'>Social Media</a>
                         </li>
+                        
                         <li>
-                            <a href="#" className='duration-300'>Speaking</a>
+                            <a href="#projects" className='duration-300'>Projects</a>
                         </li>
+                    
                         <li>
-                            <a href="#" className='duration-300'>Contact</a>
+                            <a href="#contact" className='duration-300'>Contact</a>
                         </li>
                     </ul>
                 </div>
