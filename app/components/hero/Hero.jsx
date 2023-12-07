@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import pfp from '../../assets/pfp.png'
+import Lottie from "lottie-react";
+import devAnimation from '../../assets/animations/dev.json'
+import './hero.css'
 
 const Hero = () => {
     return (
@@ -30,8 +33,8 @@ const Hero = () => {
 
             </div>
 
-            <div className='border border-green-500'>
-                Right section for animation
+            <div className='dev-animation'>
+                <Lottie animationData={devAnimation} loop={true} className='w-80' />
             </div>
 
         </section>
