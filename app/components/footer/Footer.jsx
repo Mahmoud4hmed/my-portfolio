@@ -6,20 +6,20 @@ const Footer = () => {
         <footer className='flex justify-between'>
             <ul className='flex gap-4'>
 
-                <li className=''>
-                    <a href="#">About</a>
+                <li>
+                    <a href="#about" className='duration-300'>About</a>
                 </li>
-                <li className=''>
-                    <a href="#">Articles</a>
+                
+                <li>
+                    <a href="#social" className='duration-300'>Social Media</a>
                 </li>
-                <li className=''>
-                    <a href="#">Projects</a>
+                
+                <li>
+                    <a href="#projects" className='duration-300'>Projects</a>
                 </li>
-                <li className=''>
-                    <a href="#">Speaking</a>
-                </li>
-                <li className=''>
-                    <a href="#">Contact</a>
+                
+                <li>
+                    <a href="#contact" className='duration-300'>Contact</a>
                 </li>
                 
             </ul>   

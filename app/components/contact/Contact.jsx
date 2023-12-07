@@ -16,7 +16,7 @@ const Contact = () => {
     }
 
     return (
-    <section className='flex gap-4 justify-between'>
+    <section id='contact' className='flex gap-4 justify-between'>
 
             <div className='py-3 pl-5 gap-8'>
                 <h1 className='text-3xl gap-3 flex text-[var(--title)]'>

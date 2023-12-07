@@ -28,23 +28,19 @@ const Header = () => {
             <nav className='bg-[var(--bgHeader)] py-4 px-8 rounded-full hover:shadow-md shadow-sm shadow-gray-500 duration-500 hover:shadow-[var(--blue)]'>
                 <ul className='flex gap-4'>
                     <li>
-                        <a href="#" className='duration-300'>About</a>
+                        <a href="#about" className='duration-300'>About</a>
                     </li>
                     
                     <li>
-                        <a href="#" className='duration-300'>Articles</a>
+                        <a href="#social" className='duration-300'>Social Media</a>
                     </li>
                     
                     <li>
-                        <a href="#" className='duration-300'>Projects</a>
+                        <a href="#projects" className='duration-300'>Projects</a>
                     </li>
-                    
+                  
                     <li>
-                        <a href="#" className='duration-300'>Speaking</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#" className='duration-300'>Contact</a>
+                        <a href="#contact" className='duration-300'>Contact</a>
                     </li>
                 </ul>
             </nav>
